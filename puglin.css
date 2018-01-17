@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fix-body{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0,0,0,0.7);
+    top: 0;
+}
+.tan-box{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom:0;
+    margin: auto;
+    width: 6.32rem;
+    height:3.52rem;
+    background:rgba(255,255,255,1);
+    border-radius: 0.2rem ;
+    box-sizing: border-box;
+    padding: 0.3rem 0.3rem;
+}
+.tan-message{
+    margin-top: 0.98rem;
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 0.32rem;
+}
+.tan-btn{
+    margin: 0.4rem auto;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+.tan-btn>div{
+    width:40%;
+    height:0.56rem;
+    font-size:0.28rem;
+    color: #fff;
+    background: #D0021B;
+    text-align: center;
+    border-radius: 0.38rem;
+    line-height: 0.56rem;
+
+}
+.tan-btn>div>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+.only-btn{
+    width:100%;
+    height:0.56rem;
+    font-size:0.28rem;
+    color: #fff;
+    background: #D0021B;
+    text-align: center;
+    border-radius: 0.38rem;
+    line-height: 0.56rem;;
+    margin: auto;
+}
+.close-fix{
+    position: absolute;
+    font-size: 0.26rem;
+    top: 0.2rem;
+    right: 0.2rem;
+    color: #4a4a4a;
+    width: 0.5rem;
+    height: 0.5rem;
+    z-index: 2;
+}
+.close-fix>span{
+    display: block;
+    font-size: 0.6rem;
+}
